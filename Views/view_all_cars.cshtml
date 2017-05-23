@@ -1,6 +1,8 @@
 <ul>
-  @foreach(var car in Model)
+  @foreach (var car in Model)
   {
-    <li>@car</li>
+    <li>@car.GetMakeModel()</li>
+    <li>@car.GetPrice()</li>
+    <li>@car.GetMiles()</li>
   }
 </ul>

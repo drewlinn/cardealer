@@ -4,7 +4,7 @@ using System.Collections.Generic;
 namespace CarDealer.Objects
 {
 
-  class Car
+  public class Car
   {
     private string _makeModel;
     private string _price;
