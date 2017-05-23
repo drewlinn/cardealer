@@ -5,7 +5,7 @@ using Nancy;
 using Nancy.Owin;
 using Nancy.ViewEngines.Razor;
 
-namespace Madlibs
+namespace CarDealer
 {
   public class Startup
   {
